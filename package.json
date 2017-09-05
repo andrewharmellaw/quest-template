@@ -1,19 +1,30 @@
 {
-  "name": "quest-template",
+  "name": "quest-template-CHANGE-THIS",
   "version": "1.0.0",
-  "description": "Template for a 'Quest'",
+  "description": "Template for a 'Quest' - CHANGE THIS",
+  "author": "Your Name <your.name@yourcompany.com>",
+  "license": "CC-BY-NC-SA-4.0",
+  "dependencies": {
+    "skill-build-tool-maven2-apprentice-dev": "github:andrewharmellaw/skill-build-tool-maven2-apprentice-dev",
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Capgemini/quest-template.git-CHANGE-THIS"
+  },
+  "bugs": {
+    "url": "https://github.com/Capgemini/quest-template/issues-CHANGE-THIS"
+  },
+  "homepage": "https://capgemini.github.io/quest-template/-CHANGE-THIS"
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Capgemini/quest-template.git"
+  "engines": {
+    "node": ">=4.2.4"
   },
-  "author": "Greg Wolverson <greg.wolverson@capgemini.com>",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Capgemini/quest-template/issues"
-  },
-  "homepage": "https://github.com/Capgemini/quest-template#readme"
+  "config": {
+    "generateRelease": {
+      "no_confirm": true
+    }
+  }
 }
