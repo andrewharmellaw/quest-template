@@ -7,6 +7,9 @@
   "dependencies": {
     "skill-build-tool-maven2-apprentice-dev": "github:andrewharmellaw/skill-build-tool-maven2-apprentice-dev",
   },
+  "devDependencies": {
+    "binder": "github:gwolverson/binder"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Capgemini/quest-template.git-CHANGE-THIS"
