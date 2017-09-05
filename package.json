@@ -14,7 +14,7 @@
   "bugs": {
     "url": "https://github.com/Capgemini/quest-template/issues-CHANGE-THIS"
   },
-  "homepage": "https://capgemini.github.io/quest-template/-CHANGE-THIS"
+  "homepage": "https://capgemini.github.io/quest-template/-CHANGE-THIS",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
