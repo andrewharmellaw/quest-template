@@ -15,6 +15,6 @@ after_success:
 notifications:
   email:
     recipients:
-      - andrew@harmel-law.com
+      - your.name@yourcompany.com
     on_success: [change]
     on_failure: [always]
