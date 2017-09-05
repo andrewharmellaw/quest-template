@@ -14,4 +14,4 @@
 We'd love you to help us with this quest.  To find out more about how to do this, please take a look at our guide to [contributing](CONTRIBUTING.md), and equally importantly, our [code of conduct](CODE_OF_CONDUCT.md).
 
 ## Making Something New
-Equally we'd love you to take what we've made, and do soemthing even more awesome with it.  If you do, you'll need to take a look at our [license](LICENSE.md).
+We'd also love you to take what we've made here, and do something even more awesome with it.  If you do, you'll need to take a look at our [license](LICENSE.md) so you can adhere to it.
