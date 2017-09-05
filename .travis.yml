@@ -8,13 +8,13 @@ before_script:
   - npm install
 script:
   - npm version minor --no-git-tag-version
-  - binder publish-local
+  - binder publish-quest
 after_success:
-  - chmod +x release-site.sh
-  - test $TRAVIS_PULL_REQUEST == "false" && test $TRAVIS_BRANCH == "master" && ./release-site.sh
+  - test $TRAVIS_PULL_REQUEST == "false" && test $TRAVIS_BRANCH == "master" && ./.travis/push-changes-to-master.sh
 notifications:
   email:
     recipients:
       - your.name@yourcompany.com
     on_success: [change]
     on_failure: [always]
+
