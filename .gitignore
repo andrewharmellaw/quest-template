@@ -56,3 +56,13 @@ typings/
 
 # dotenv environment variables file
 .env
+
+# IDEA files
+/.idea/
+*.iml
+
+# Local site files
+public/
+routes/
+views/
+bin/
